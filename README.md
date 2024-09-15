@@ -1,5 +1,17 @@
 ### Stock Price Prediction Using LSTM
 
+This project demonstrates how to predict stock prices using a Long Short-Term Memory (LSTM) neural network. The model is trained on historical stock prices and aims to forecast future stock values based on past trends.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Workflow](#project-workflow)
+- [Model Architecture](#model-architecture)
+- [Results](#results)
+- [Technologies Used](#technologies-used)
+- [Dataset](#dataset)
+- [References](#references)
+
 In this project, we developed a machine learning model to predict stock prices based on historical data using a Long Short-Term Memory (LSTM) neural network. The dataset consists of closing prices for multiple stocks, and the main steps involved in the project were:
 
 1. **Data Preprocessing**: We scaled the stock prices using MinMax scaling to normalize the data, ensuring that the model could learn efficiently. We then created sequences of 60 past prices (the `seq_length`) to predict the future stock price.
