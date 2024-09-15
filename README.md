@@ -61,17 +61,12 @@ model.add(Dense(1))
 model.compile(optimizer='adam', loss='mean_squared_error')
 ```
 
-
----
-
-
-
 ## Results
-```markdown
+
 
 The model was able to capture the general trends in stock price movements. The predicted stock prices were plotted alongside actual stock prices to visually evaluate the model’s performance.```
 ![Stock Price Prediction](prediction_graph.png)
-```
+
 
 ## Technologies Used
 
